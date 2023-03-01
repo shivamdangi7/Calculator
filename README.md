@@ -1,2 +1,2 @@
 # Calculator
-A website of your Calculator
+When it is easy to make calculator then to calculate.
