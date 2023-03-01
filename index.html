@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cal-C</title>
+    <link rel="stylesheet" href="./app.css">
+    <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main id="main">
+        <section id="grid">
+
+            <form name="calculator">
+                <input type="text" class="button display" name="ans" value=""
+                    onsubmit="document.calculator.ans.value=eval(document.calculator.ans.value)">
+                <input type="reset" name="" class="button reset" id="reset">
+                <input type="button" value="/" class="button div" onclick="document.calculator.ans.value+='/'">
+                <input type="button" value="*" class="button multi" onclick="document.calculator.ans.value+='*'">
+                <input type="button" value="-" class="button sub" onclick="document.calculator.ans.value+='-'">
+                <input type="button" value="7" class="button seven" onclick="document.calculator.ans.value+='7'">
+                <input type="button" value="8" class="button eight" onclick="document.calculator.ans.value+='8'">
+                <input type="button" value="9" class="button nine" onclick="document.calculator.ans.value+='9'">
+                <input type="button" value="+" class="button add" onclick="document.calculator.ans.value+='+'">
+                <input type="button" value="4" class="button four" onclick="document.calculator.ans.value+='4'">
+                <input type="button" value="5" class="button five" onclick="document.calculator.ans.value+='5'">
+                <input type="button" value="6" class="button six" onclick="document.calculator.ans.value+='6'">
+                <input type="button" value="1" class="button one" onclick="document.calculator.ans.value+='1'">
+                <input type="button" value="2" class="button two" onclick="document.calculator.ans.value+='2'">
+                <input type="button" value="3" class="button three" onclick="document.calculator.ans.value+='3'">
+                <input type="button" value="=" class="button equals "
+                    onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+                <input type="button" value="0" class="button zero" onclick="document.calculator.ans.value+='0'">
+                <input type="button" value="." class="button decimal" onclick="document.calculator.ans.value+='.'">
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>
